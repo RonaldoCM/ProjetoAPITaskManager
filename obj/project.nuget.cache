@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jk/hCoZBxCk=",
+  "dgSpecHash": "SovmSHpP1ro=",
   "success": true,
-  "projectFilePath": "g:\\Arquivos\\Documents\\ProjetoAPITaskManager\\APITaskManager.csproj",
+  "projectFilePath": "G:\\MYFILES\\Documents\\ProjetoAPITaskManager\\ProjetoAPITaskManager\\APITaskManager.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ronaldo.costa\\.nuget\\packages\\autofac\\8.1.0\\autofac.8.1.0.nupkg.sha512",
     "C:\\Users\\ronaldo.costa\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.8\\microsoft.entityframeworkcore.8.0.8.nupkg.sha512",

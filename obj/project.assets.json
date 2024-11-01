@@ -1116,27 +1116,24 @@
   },
   "packageFolders": {
     "C:\\Users\\ronaldo.costa\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Arquivos\\Documents\\ProjetoAPITaskManager\\APITaskManager.csproj",
+      "projectUniqueName": "G:\\MYFILES\\Documents\\ProjetoAPITaskManager\\ProjetoAPITaskManager\\APITaskManager.csproj",
       "projectName": "APITaskManager",
-      "projectPath": "G:\\Arquivos\\Documents\\ProjetoAPITaskManager\\APITaskManager.csproj",
+      "projectPath": "G:\\MYFILES\\Documents\\ProjetoAPITaskManager\\ProjetoAPITaskManager\\APITaskManager.csproj",
       "packagesPath": "C:\\Users\\ronaldo.costa\\.nuget\\packages\\",
-      "outputPath": "G:\\Arquivos\\Documents\\ProjetoAPITaskManager\\obj\\",
+      "outputPath": "G:\\MYFILES\\Documents\\ProjetoAPITaskManager\\ProjetoAPITaskManager\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\ronaldo.costa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -1207,7 +1204,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
