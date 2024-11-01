@@ -15,14 +15,14 @@ E a instalação dos packages:
 * EntityFrameworkCore.InMemory
 O Swashbuckle.AspNetCore é instalado automaticamente na criação do projeto.
 
-<img src="https://github.com/RonaldoCM/ProjetoAPITaskManage/blob/main/APITaskManager/Imagens/requisitos.png" alt="Requisitos">
+<img src="https://github.com/RonaldoCM/ProjetoAPITaskManager/blob/main/Imagens/requisitos.png" alt="Requisitos">
 
 ## Descrição
 A APITaskManager, foi criada com a ideia de ter uma API que realizasse as premissas de inclusão, edição e 
 exclusão de tarefas, utilizando o Swagger como documentação e testes.
 O projeto segue a seguinte estrutura:
 
-<img src="https://github.com/RonaldoCM/ProjetoAPITaskManage/blob/main/APITaskManager/Imagens/descricao.png" alt="Descrição">
+<img src="https://github.com/RonaldoCM/ProjetoAPITaskManager/blob/main/Imagens/descricao.png" alt="Descrição">
 
 Onde separei as responsabilidades por diretórios.
 * Controllers = Implementação dos controllers onde as requisições externas serão recebidas.
@@ -33,7 +33,7 @@ apenas a classe TarefaDTO que implementa a estrutura de comunicação com os End
 * Repository – Diretório que contém a construção do DbContext da Tarefa.
 * Services – Diretório onde foram implementadas as ações e lógica das classes:
 
-<img src="https://github.com/RonaldoCM/ProjetoAPITaskManage/blob/main/APITaskManager/Imagens/services.png" alt="Services">
+<img src="https://github.com/RonaldoCM/ProjetoAPITaskManager/blob/main/Imagens/services.png" alt="Services">
 
 Classe FakeTarefasService – A classe em que expandida a aplicação, poderá servir como um controle Fake, que implementa a mesma interface de serviços ITarefaService que a classe oficial (de produção) TarefasService.
 Classe ITarefaService – Define as implementações, ações que são obrigatórias para as classes que a herdam.
@@ -41,14 +41,14 @@ TarefaService – Seria a implementação oficial dos serviços disponíveis no 
 
 Com essa descrição da Estrutura está disponível para requisições os métodos:
 
-<img src="https://github.com/RonaldoCM/ProjetoAPITaskManage/blob/main/APITaskManager/Imagens/verbos.png" alt="Verbos">
+<img src="https://github.com/RonaldoCM/ProjetoAPITaskManager/blob/main/Imagens/verbos.png" alt="Verbos">
 
 Para serem requisitados por chamadas externas vindas do controller TarefasController.
 O construtor desse controller está preparado para inicializar os objetos de ITarefaService.
 Podendo receber e inicializar outras implementações de outras interfaces que possam vir a 
 serem implementadas.
 
-<img src="https://github.com/RonaldoCM/ProjetoAPITaskManage/blob/main/APITaskManager/Imagens/controller.png" alt="Controller">
+<img src="https://github.com/RonaldoCM/ProjetoAPITaskManager/blob/main/Imagens/controller.png" alt="Controller">
 
 ## Observações Gerais
 
